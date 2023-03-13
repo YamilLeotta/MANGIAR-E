@@ -1,0 +1,17 @@
+.home {
+    width: 100vh;
+    flex: 4;
+}
+
+.homeWidgets {
+    display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+    margin: 20px;
+}
+
+.feature {
+    display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

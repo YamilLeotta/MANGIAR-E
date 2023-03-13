@@ -1,0 +1,88 @@
+.container {
+  margin-top: 6rem;
+  display: flex;
+  position: relative;
+}
+
+.userInfoDiv {
+  width: 20%;
+  height: 30rem;
+  /* background-color: #0c1d2c; */
+  background-image: url("https://img.freepik.com/premium-vector/food-doodle-set_160308-239.jpg?w=740");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  box-sizing: border-box;
+  gap: 2rem;
+  position: fixed;
+  color: #276749;
+  font-family: Caviar Dreams, sans-serif;
+  font-weight: bold;
+}
+
+.userInfoDiv img {
+  width: 80%;
+}
+
+.userInfoCountDiv {
+  background-color: #fff;
+}
+
+.profileImg {
+  width: 6rem;
+  height: auto;
+}
+
+.userName {
+  background-color: #fff;
+  font-size: 16px;
+}
+
+.boxesContainer {
+  margin-left: 20%;
+  width: 80%;
+  display: flex;
+  padding: 2rem;
+  box-sizing: border-box;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.ordersContainer {
+  margin-top: 2rem;
+  width: 97%;
+  border: 1px solid rgb(199, 199, 199);
+  box-shadow: 5px 5px 10px gray;
+}
+
+
+
+@media (max-width: 1200px) {
+  .userInfoDiv {
+    display: none;
+  }
+
+  .containerMain {
+    width: 100%;
+  }
+
+  .container {
+    width: 100%;
+    margin-top: 4rem;
+    display: flex;
+    position: relative;
+  }
+
+  .boxesContainer {
+    margin-left: initial;
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .ordersContainer {
+    margin-top: 1rem;
+  }
+}

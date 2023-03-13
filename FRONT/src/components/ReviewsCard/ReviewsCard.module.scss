@@ -1,0 +1,64 @@
+$box-shadow: 5px 5px 10px gray;
+$border: 1px solid rgb(199, 199, 199);
+
+.container {
+  // background-color: #fff;
+  border: $border;
+  //max-width: 15rem;
+  min-height: 8rem;
+  border-radius: 10px;
+  box-shadow: $box-shadow;
+  padding: 1rem;
+  box-sizing: border-box;
+  // overflow: hidden;
+  display: flex;
+  position: relative;
+
+  .deleteButtonDiv {
+    position: absolute;
+    font-size: 24px;
+    color: brown;
+    right: -7.5px;
+    top: 0px;
+    cursor: pointer;
+    background: none;
+    border-radius: 50%;
+    transition: 0.2s;
+
+    &:hover {
+      transition: 0s;
+      background: none;
+      transform: scale(1.2);
+      color: rgb(202, 29, 29);
+    }
+  }
+
+  .imgDiv {
+    width: 30%;
+  }
+
+  .infoDiv {
+    width: 70%;
+    border-left: $border;
+    margin-left: 0.5rem;
+    padding-left: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .stars {
+      font-size: 12px;
+    }
+
+    .longComment {
+      font-size: 14px;
+    }
+
+    .userDiv {
+      border-top: $border;
+      display: flex;
+      justify-content: space-between;
+      font-size: 12px;
+    }
+  }
+}

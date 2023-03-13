@@ -1,0 +1,62 @@
+.topbar {
+    margin-top: 60px;
+    height: 80px;
+    background-color: whitesmoke;
+    position: fixed;
+    top: 0;
+    z-index: 0.5;
+    width: 100%;
+    background-image:url("../../../img/FONDOTOPBARADMIN.jpg")
+}
+
+.topbarWraper {
+    height: 60px;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.logo {
+    text-align: left; 
+font-family: Arial white; 
+font-weight: bold; 
+font-size: 40px; 
+color: black; 
+text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+.topRight {
+    display: flex;
+    align-items: center;
+}
+
+.topBarIconContainer {
+position: relative;
+cursor: pointer;
+margin-right: 10px;
+color: #555;
+};
+
+.topIconBadge {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: -5px;
+    right: 0px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+}
+
+.topAvatar {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}

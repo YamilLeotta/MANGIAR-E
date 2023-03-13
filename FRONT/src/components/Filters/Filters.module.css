@@ -1,0 +1,62 @@
+.container {
+    background-color: #fff;
+    padding: 1rem;
+    box-sizing: border-box;
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+    position: relative;
+}
+
+.selectIngredients {
+    width: 50%;
+}
+.select{
+    width: 100%;
+    min-width: 200px;
+}
+
+.selectedIngredientsDiv {
+    background-color:rgba(255, 255, 255, 0.7);
+    width: 50%;
+    min-width: 50px;
+    min-height: 3rem;
+    border: 1px solid #b3b3b3;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    padding: 0.5rem;
+    box-sizing: border-box;
+}
+
+.ingredient {
+    background-color: brown;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 12px;
+    height: 1.5rem;
+    padding: 0 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.clearButtonDiv {
+    position: absolute;
+    bottom: 1rem;
+    width: 80%;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clearButton {
+    padding: 5px 10px;
+    box-sizing: border-box;
+    
+}
